@@ -5,10 +5,10 @@ import './navbar.css';
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="navbar-logo">
+      <div className="navbarlogo">
         <Link to="/">Kali linux</Link>
       </div>
-      <ul className="navbar-links">
+      <ul className="navbarlinks">
         <li><Link to="/">Inicio</Link></li>
         <li><Link to='/installKali'>Tutorial</Link></li>
         <li><Link to="/history">Historia</Link></li>

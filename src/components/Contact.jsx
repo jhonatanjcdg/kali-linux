@@ -43,7 +43,7 @@ const Contact = () => {
         <button type="submit">Enviar</button>
       </form>
       
-      <div className="contact-info">
+      <div className="contactinfo">
         <h3>Soporte Técnico</h3>
         <p>Para problemas técnicos con Kali Linux, visita nuestra <a href="https://www.kali.org/community/">página de soporte comunitario</a>.</p>
         

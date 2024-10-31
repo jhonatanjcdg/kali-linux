@@ -1,23 +1,23 @@
 import React from 'react';
-import './kali-history.css';
+import './kalihistory.css';
 
 const KaliHistory = () => {
   return (
-    <div className="kali-history">
+    <div className="kalihistory">
       <h2>Historia de Kali Linux</h2>
       <p>Kali Linux es una distribución de Linux desarrollada por Offensive Security, conocida por ser una de las principales plataformas para pruebas de penetración y auditoría de seguridad.</p>
       
-      <div className="history-section">
+      <div className="historysection">
         <h3>Autores</h3>
         <p>Kali Linux fue desarrollado principalmente por Mati Aharoni, Devon Kearns y Raphaël Hertzog, como parte de Offensive Security. Estos desarrolladores buscaban crear una plataforma que integrara las herramientas de seguridad más avanzadas y que fuera accesible para profesionales y entusiastas de la seguridad informática.</p>
       </div>
       
-      <div className="history-section">
+      <div className="historysection">
         <h3>Año de Lanzamiento</h3>
         <p>Kali Linux fue lanzado por primera vez el 13 de marzo de 2013. Se basó en una anterior distribución llamada BackTrack, la cual también se centraba en la seguridad informática y pruebas de penetración. BackTrack fue popular durante muchos años, y su evolución hacia Kali Linux representó un paso importante en términos de accesibilidad y funcionalidad.</p>
       </div>
       
-      <div className="history-section">
+      <div className="historysection">
         <h3>Versiones</h3>
         <ul>
           <li><strong>2013:</strong> Primera versión estable de Kali Linux, introduciendo una plataforma robusta para pruebas de seguridad.</li>
@@ -31,7 +31,7 @@ const KaliHistory = () => {
         <img style={{maxWidth: '500px'}} src="https://www.kali.org/images/kali-logo.svg" alt="Kali Linux Logo" />
       </div>
       
-      <div className="history-section">
+      <div className="historysection">
         <h3>Versión de Kali Linux 2021</h3>
         <p>La versión de Kali Linux 2021 introdujo varias mejoras significativas, incluyendo:</p>
         <ul>
@@ -43,7 +43,7 @@ const KaliHistory = () => {
         <img style={{maxWidth: '500px'}} src="https://i.ytimg.com/vi/k5byT1Vx4c8/maxresdefault.jpg" alt="Kali Linux 2021" />
       </div>
       
-      <div className="history-section">
+      <div className="historysection">
         <h3>Impacto en la Comunidad de Seguridad Informática</h3>
         <p>Desde su lanzamiento, Kali Linux ha tenido un impacto significativo en la comunidad de seguridad informática. Ha sido utilizado por profesionales y entusiastas de la seguridad para realizar pruebas de penetración, análisis de vulnerabilidades, y auditorías de seguridad en organizaciones de todo el mundo.</p>
         <p>Además, Kali Linux ha sido una herramienta educativa importante, utilizada en cursos y certificaciones de seguridad informática. Su accesibilidad y la riqueza de sus herramientas lo han convertido en una elección popular para aquellos que buscan aprender y mejorar sus habilidades en ciberseguridad.</p>

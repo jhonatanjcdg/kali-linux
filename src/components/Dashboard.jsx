@@ -7,7 +7,7 @@ const Dashboard = () => {
       <h2>Dashboard de Kali Linux</h2>
       <p>Bienvenido al panel de control de Kali Linux.</p>
       
-      <div className="dashboard-section">
+      <div className="dashboardsection">
         <h3>Resumen del Sistema</h3>
         <p>Versión de Kali Linux: 2024.1</p>
         <p>Uso de CPU: 15%</p>
@@ -15,7 +15,7 @@ const Dashboard = () => {
         <p>Almacenamiento Disponible: 120 GB / 256 GB</p>
       </div>
       
-      <div className="dashboard-section">
+      <div className="dashboardsection">
         <h3>Herramientas de Seguridad</h3>
         <ul>
           <li>Nmap - Escaneo de redes</li>
@@ -27,13 +27,13 @@ const Dashboard = () => {
         </ul>
       </div>
       
-      <div className="dashboard-section">
+      <div className="dashboardsection">
         <h3>Actualizaciones y Noticias</h3>
         <p>No hay actualizaciones disponibles.</p>
         <p>Últimas noticias: Nueva vulnerabilidad descubierta en XYZ.</p>
       </div>
       
-      <div className="dashboard-section">
+      <div className="dashboardsection">
         <h3>Tutoriales y Documentación</h3>
         <ul>
           <li><a href="https://www.kali.org/docs/">Documentación Oficial de Kali Linux</a></li>
@@ -44,12 +44,12 @@ const Dashboard = () => {
         </ul>
       </div>
       
-      <div className="dashboard-section">
+      <div className="dashboardsection">
         <h3>Alertas de Seguridad</h3>
         <p>No hay alertas de seguridad en este momento.</p>
       </div>
       
-      <div className="dashboard-section">
+      <div className="dashboardsection">
         <h3>Foros y Comunidad</h3>
         <ul>
           <li><a href="https://forums.kali.org/">Foros de Kali Linux</a></li>
@@ -59,7 +59,7 @@ const Dashboard = () => {
         </ul>
       </div>
       
-      <div className="dashboard-section">
+      <div className="dashboardsection">
         <h3>Proyectos y Scripts</h3>
         <p>Accede a proyectos y scripts útiles para tus pruebas de penetración:</p>
         <ul>
@@ -70,7 +70,7 @@ const Dashboard = () => {
         </ul>
       </div>
       
-      <div className="dashboard-section">
+      <div className="dashboardsection">
         <h3>Eventos y Conferencias</h3>
         <p>Participa en eventos y conferencias de seguridad informática:</p>
         <ul>
@@ -81,7 +81,7 @@ const Dashboard = () => {
         </ul>
       </div>
       
-      <div className="dashboard-section">
+      <div className="dashboardsection">
         <h3>Recursos de Aprendizaje</h3>
         <p>Mejora tus habilidades con estos recursos de aprendizaje:</p>
         <ul>

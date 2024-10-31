@@ -13,7 +13,7 @@
   font-size: 1.2em;
 }
 
-.dashboard-section {
+.dashboardsection {
   margin: 20px 0;
   padding: 20px;
   border: 1px solid #ddd;
@@ -21,30 +21,30 @@
   background-color: #f9f9f9;
 }
 
-.dashboard-section h3 {
+.dashboardsection h3 {
   font-size: 1.5em;
   margin-bottom: 10px;
 }
 
-.dashboard-section ul {
+.dashboardsection ul {
   list-style-type: none;
   padding: 0;
 }
 
-.dashboard-section ul li {
+.dashboardsection ul li {
   margin: 5px 0;
 }
 
-.dashboard-section a {
+.dashboardsection a {
   color: #007BFF;
   text-decoration: none;
 }
 
-.dashboard-section a:hover {
+.dashboardsection a:hover {
   text-decoration: underline;
 }
 
-.dashboard-section button {
+.dashboardsection button {
   background-color: #007BFF;
   color: white;
   border: none;
@@ -54,6 +54,6 @@
   margin: 5px;
 }
 
-.dashboard-section button:hover {
+.dashboardsection button:hover {
   background-color: #0056b3;
 }

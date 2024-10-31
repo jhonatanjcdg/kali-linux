@@ -30,36 +30,36 @@
   background-color: #0056b3;
 }
 
-.linux-info {
+.linuxinfo {
   background-color: rgba(0, 0, 0, 0.7);
   padding: 20px;
   margin-top: 30px;
   border-radius: 10px;
 }
 
-.linux-info h2, .linux-info h3 {
+.linuxinfo h2, .linuxinfo h3 {
   color: #FFD700;
 }
 
-.linux-info p, .linux-info ul {
+.linuxinfo p, .linuxinfo ul {
   text-align: left;
   color: #FFF;
 }
 
-.linux-info ul {
+.linuxinfo ul {
   list-style-type: disc;
   padding-left: 20px;
 }
 
-.linux-info ul li {
+.linuxinfo ul li {
   margin-bottom: 10px;
 }
 
-.linux-info a {
+.linuxinfo a {
   color: #FFD700;
   text-decoration: none;
 }
 
-.linux-info a:hover {
+.linuxinfo a:hover {
   text-decoration: underline;
 }

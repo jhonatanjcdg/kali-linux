@@ -1,12 +1,12 @@
-.comments-authors {
+.commentsauthors {
     padding: 20px;
     background-color: #f5f5f5;
     border-radius: 8px;
     margin-top: 30px;
 }
 
-.comments-authors h2,
-.comments-authors h3 {
+.commentsauthors h2,
+.commentsauthors h3 {
     color: #333;
 }
 
@@ -14,7 +14,7 @@
     margin-top: 20px;
 }
 
-.authors-info {
+.authorsinfo {
     margin-top: 30px;
 }
 

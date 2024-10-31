@@ -62,7 +62,7 @@ const InstallKali = () => {
         <img className='kaliLogo' src="https://www.kali.org/images/404.png" alt="Escritorio de Kali Linux" />
       </div>
       
-      <div className="video-tutorial">
+      <div className="videotutorial">
         <h3>Tutorial en Video</h3>
         <a href="https://www.youtube.com/watch?v=GJqmBBfWT7A" target="_blank" rel="noopener noreferrer">
           <img

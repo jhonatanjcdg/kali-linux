@@ -18,12 +18,12 @@ const CommentsAndAuthors = () => {
     }, []);
 
     return (
-        <section className="comments-authors">
+        <section className="commentsauthors">
             <h2>Zona de Comentarios</h2>
             <div id="disqus_thread"></div> {/* Div donde se cargan los comentarios */}
 
             <h3>Autores</h3>
-            <div className="authors-info">
+            <div className="authorsinfo">
                 <div className="author">
                     <h4>Jhonatan Juan Carlos Delgado Gómez</h4>
                     <p>Estudiante de Ingeniería en Sistemas</p>

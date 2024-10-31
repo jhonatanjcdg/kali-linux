@@ -15,7 +15,7 @@ const Hero = () => {
             <p>Explora el sistema operativo más avanzado para pruebas de penetración y seguridad informática.</p>
             <button onClick={handleStartClick}>Comenzar</button>
 
-            <div className="linux-info">
+            <div className="linuxinfo">
                 <h2>¿Qué es Kali Linux?</h2>
                 <p>
                     Kali Linux es una distribución de Linux basada en Debian, diseñada para tareas de seguridad informática como pruebas de penetración, investigación de seguridad, forense digital y ingeniería inversa. Es una plataforma de código abierto que proporciona una amplia gama de herramientas de seguridad.

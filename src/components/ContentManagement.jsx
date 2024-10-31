@@ -11,7 +11,7 @@ const ContentManagement = () => {
   };
 
   return (
-    <div className="content-management">
+    <div className="contentmanagement">
       <h2>Gestión de Contenido</h2>
       <input 
         type="text" 
@@ -26,7 +26,7 @@ const ContentManagement = () => {
         ))}
       </ul>
       
-      <div className="content-section">
+      <div className="contentsection">
         <h3>Artículos y Tutoriales</h3>
         <ul>
           <li><a href="#">Introducción a Kali Linux</a></li>
@@ -35,7 +35,7 @@ const ContentManagement = () => {
         </ul>
       </div>
       
-      <div className="content-section">
+      <div className="contentsection">
         <h3>Recursos Descargables</h3>
         <ul>
           <li><a href="#">Scripts de automatización</a></li>
@@ -44,7 +44,7 @@ const ContentManagement = () => {
         </ul>
       </div>
       
-      <div className="content-section">
+      <div className="contentsection">
         <h3>Videos y Multimedia</h3>
         <ul>
           <li><a href="#">Video tutorial: Uso de Wireshark</a></li>
@@ -52,7 +52,7 @@ const ContentManagement = () => {
         </ul>
       </div>
       
-      <div className="content-section">
+      <div className="contentsection">
         <h3>Documentación y Guías</h3>
         <ul>
           <li><a href="https://www.kali.org/docs/">Documentación Oficial de Kali Linux</a></li>
@@ -60,7 +60,7 @@ const ContentManagement = () => {
         </ul>
       </div>
       
-      <div className="content-section">
+      <div className="contentsection">
         <h3>Comentarios y Feedback</h3>
         <p>Deja tus comentarios y feedback sobre los artículos y recursos.</p>
         {/* Aquí podrías implementar un sistema de comentarios */}
