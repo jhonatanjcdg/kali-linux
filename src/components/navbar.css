@@ -36,3 +36,43 @@
 .navbarlinks a:hover {
   color: #FFD700;
 }
+
+/* Responsive Styles */
+.menu-icon {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.menu-icon-bar {
+  width: 25px;
+  height: 3px;
+  background-color: #FFD700;
+}
+
+/* Responsive for Mobile */
+@media (max-width: 768px) {
+  .navbarlinks {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #333;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbarlinks-open {
+    display: flex;
+  }
+
+  .navbarlinks li {
+    margin: 10px 0;
+  }
+
+  .menu-icon {
+    display: flex;
+  }
+}
