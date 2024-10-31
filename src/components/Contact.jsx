@@ -5,11 +5,30 @@ const Contact = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
+  const [status, setStatus] = useState('');
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Aquí puedes manejar el envío del formulario, por ejemplo, enviando los datos a un servidor
-    console.log('Formulario enviado:', { name, email, message });
+
+    try {
+      const response = await fetch('http://localhost:5000/send-email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ name, email, message }),
+      });
+
+      if (response.ok) {
+        setStatus('Correo enviado con éxito');
+      } else {
+        setStatus('Error al enviar el correo');
+      }
+    } catch (error) {
+      console.error('Error:', error);
+      setStatus('Error al enviar el correo');
+    }
+
     setName('');
     setEmail('');
     setMessage('');
@@ -17,7 +36,7 @@ const Contact = () => {
 
   return (
     <div className="contact">
-      <h2>Cometarios</h2>
+      <h2>Comentarios</h2>
       <p>Si tienes algún comentario, por favor dínoslo</p>
       <form onSubmit={handleSubmit}>
         <input 
@@ -42,20 +61,7 @@ const Contact = () => {
         ></textarea>
         <button type="submit">Enviar</button>
       </form>
-      
-      <div className="contactinfo">
-        <h3>Soporte Técnico</h3>
-        <p>Para problemas técnicos con Kali Linux, visita nuestra <a href="https://www.kali.org/community/">página de soporte comunitario</a>.</p>
-        
-        <h3>Reportar un Problema</h3>
-        <p>Si has encontrado un problema con Kali Linux, por favor, haz una publicación en nuestro <a href="https://bugs.kali.org/">rastreador de errores</a>.</p>
-        
-        <h3>Consultas Generales</h3>
-        <p>Para consultas generales, puedes enviarnos un correo a <a href="mailto:info@kali.org">info@kali.org</a>.</p>
-        
-        <h3>Reportar una Vulnerabilidad</h3>
-        <p>Si has encontrado una vulnerabilidad de seguridad, por favor, repórtala a través de nuestro <a href="https://www.kali.org/security/">programa de recompensas por errores</a>.</p>
-      </div>
+      {status && <p>{status}</p>}
     </div>
   );
 };
