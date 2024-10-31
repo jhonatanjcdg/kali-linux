@@ -1,0 +1,65 @@
+/* hero.css */
+.hero {
+  background: url('https://www.kali.org/images/404.png') no-repeat center center;
+  background-size: cover;
+  color: white;
+  text-align: left;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+.hero button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background-color: #0056b3;
+}
+
+.linux-info {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.linux-info h2, .linux-info h3 {
+  color: #FFD700;
+}
+
+.linux-info p, .linux-info ul {
+  text-align: left;
+  color: #FFF;
+}
+
+.linux-info ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.linux-info ul li {
+  margin-bottom: 10px;
+}
+
+.linux-info a {
+  color: #FFD700;
+  text-decoration: none;
+}
+
+.linux-info a:hover {
+  text-decoration: underline;
+}

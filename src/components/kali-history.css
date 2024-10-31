@@ -1,0 +1,40 @@
+/* kali-history.css */
+.kali-history {
+    padding: 20px;
+  }
+  
+  .kali-history h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .kali-history p {
+    font-size: 1.2em;
+  }
+  
+  .history-section {
+    margin-top: 20px;
+  }
+  
+  .history-section h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .history-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .history-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .history-section img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  

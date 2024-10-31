@@ -1,0 +1,72 @@
+/* install-kali.css */
+.install-kali {
+    padding: 20px;
+  }
+  
+  .install-kali h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .install-kali p {
+    font-size: 1.2em;
+  }
+  
+  .step {
+    margin-top: 20px;
+  }
+  
+  .step h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .step ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+  }
+  
+  .step ol li {
+    margin-bottom: 10px;
+  }
+  
+  .step img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .resources {
+    margin-top: 30px;
+  }
+  
+  .resources h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .resources ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .resources ul li {
+    margin-bottom: 10px;
+  }
+  
+  .resources a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .resources a:hover {
+    text-decoration: underline;
+  }
+  
+  .kaliLogo{
+    width: 200px;
+    height: 150px;
+    border: none;
+  }

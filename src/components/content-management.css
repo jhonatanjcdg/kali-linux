@@ -1,0 +1,67 @@
+/* content-management.css */
+.content-management {
+  padding: 20px;
+}
+
+.content-management h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.content-management input {
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 1em;
+}
+
+.content-management button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.content-management button:hover {
+  background-color: #218838;
+}
+
+.content-management ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.content-management ul li {
+  background-color: #f8f9fa;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.content-section {
+  margin-top: 30px;
+}
+
+.content-section h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.content-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.content-section ul li {
+  margin-bottom: 10px;
+}
+
+.content-section a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.content-section a:hover {
+  text-decoration: underline;
+}
