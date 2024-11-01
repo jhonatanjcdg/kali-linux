@@ -8,11 +8,21 @@ const Dashboard = () => {
       <p>Bienvenido al panel de control de Kali Linux.</p>
       
       <div className="dashboardsection">
-        <h3>Resumen del Sistema</h3>
-        <p>Versión de Kali Linux: 2024.1</p>
-        <p>Uso de CPU: 15%</p>
-        <p>Memoria Utilizada: 2.5 GB / 8 GB</p>
-        <p>Almacenamiento Disponible: 120 GB / 256 GB</p>
+        <h3>Requisitos mínimos</h3>
+        <p>Versión de Kali Linux: 2021.1</p>
+        <p>Procesador de 1 GHz</p>
+        <p>2 GB de RAM</p>
+        <p>20 GB de espacio en disco</p>
+        <p>Tarjeta gráfica compatible con resolución de 1024x768</p>
+      </div>
+
+      <div className="dashboardsection">
+        <h3>Requisitos recomendados</h3>
+        <p>Versión de Kali Linux: 2021.1</p>
+        <p>Procesador de 2 GHz</p>
+        <p>4 GB de RAM o más</p>
+        <p>50 GB de espacio en disco o más</p>
+        <p>Tarjeta gráfica compatible con aceleración 3D</p>
       </div>
       
       <div className="dashboardsection">
