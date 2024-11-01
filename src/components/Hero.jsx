@@ -6,7 +6,7 @@ const Hero = () => {
     const navigate = useNavigate();
 
     const handleStartClick = () => {
-        navigate('/dashboard');
+        navigate('/installKali');
     };
 
     return (

@@ -15,14 +15,14 @@ const App = () => {
       <div className="app">
         <Navbar />
         <Routes>
-          <Route path="/" element={<Hero/>} />
+          <Route path="/" element={<Dashboard/>} />
           <Route path="/installKali" element={<InstallKali/>} />
-          <Route path="/dashboard" element={<Dashboard/>} />
+          <Route path="/home" element={<Hero/>} />
           <Route path="/content" element={<ContentManagement/>} />
           <Route path="/history" element={<KaliHistory/>} />
           <Route path="/authors" element={<CommentsAndAuthors/>} />
           <Route path="/contact" element={<Contact/>} />
-          <Route path="/*" element={<Hero/>} />
+          <Route path="/*" element={<Dashboard/>} />
         </Routes>
       </div>
   );

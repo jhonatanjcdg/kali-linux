@@ -4,7 +4,7 @@ import './dashboard.css';
 const Dashboard = () => {
   return (
     <div className="dashboard">
-      <h2>Dashboard de Kali Linux</h2>
+      <h2>Kali Linux</h2>
       <p>Bienvenido al panel de control de Kali Linux.</p>
       
       <div className="dashboardsection">

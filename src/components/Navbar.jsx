@@ -20,10 +20,9 @@ const Navbar = () => {
         <span className="menu-icon-bar"></span>
       </div>
       <ul className={`navbarlinks ${isOpen ? 'navbarlinks-open' : ''}`}>
-        <li><Link to="/">Inicio</Link></li>
+        <li><Link to="/home">Inicio</Link></li>
         <li><Link to="/installKali">Tutorial</Link></li>
         <li><Link to="/history">Historia</Link></li>
-        <li><Link to="/dashboard">Dashboard</Link></li>
         <li><Link to="/content">Contenido</Link></li>
         <li><Link to="/authors">Autores</Link></li>
         <li><Link to="/contact">Comentarios</Link></li>
